@@ -26,14 +26,6 @@ def countNewDate():
         else:
             days_in_month = 28
 
-        #if int_step - days_left > days_in_month:
-        #    days_left = days_left + days_in_month
-        #    current_month = months[months.index(current_month)+1]
-        #else:
-        #    new_month = months.index(current_month) + 1
-        #    new_day = int_step - days_left
-        #    days_left = days_left + (days_left - int_step)
-
         if days_left > days_in_month:
             current_month = months[months.index(current_month)+1]
             days_left = days_left - days_in_month
